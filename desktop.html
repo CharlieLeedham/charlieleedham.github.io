@@ -1,0 +1,534 @@
+<link rel="stylesheet" href="css/app_desktop.css" />
+<script src="src/js/a_frame_0_6_0.js"></script>
+<script src="src/js/a_frame_extras.js"></script>
+<script src="js/app_desktop.js"></script>
+<script src="src/js/registered_components.js"></script>
+
+<a class="a_link" href="tel:07748059552"></a>
+<a class="a_link" href="mailto:charlieleedham1@gmail.com"></a>
+<a class="a_link" href="/img/about/charlie_leedham_cv.pdf" download></a>
+
+<div id="loadingScreen">
+  <h1>Loading VR: Charlie Leedham's Portfolio Website</h1>
+  <div id="loadingScreen__loader"></div>
+</div>
+
+<a-scene physics="gravity: 0" vr-mode-ui="enabled: false">
+  <a-assets>
+    <!-- About me images -->
+
+    <img id="logo" src="img/about/logo.png" />
+    <a-asset-item id="person" src="img/about/head.dae"></a-asset-item>
+
+    <!-- Skill images -->
+
+    <img id="html5" src="img/skills/html5.png" />
+    <img id="css3" src="img/skills/css3.png" />
+    <img id="sass" src="img/skills/sass.png" />
+    <img id="js" src="img/skills/js.png" />
+    <img id="jQuery" src="img/skills/jquery.png" />
+    <img id="ajax" src="img/skills/ajax.png" />
+    <img id="webpack" src="img/skills/webpack.png" />
+    <img id="gulp" src="img/skills/gulp.png" />
+    <img id="gsap" src="img/skills/gsap.png" />
+    <img id="adobeCC" src="img/skills/adobe_cc.png" />
+    <img id="sketch" src="img/skills/sketch.png" />
+    <img id="aFrame" src="img/skills/a_frame.png" />
+    <img id="nodeJS" src="img/skills/nodejs.png" />
+    <img id="react" src="img/skills/react.png" />
+    <img id="php" src="img/skills/php.png" />
+    <img id="laravel" src="img/skills/laravel.png" />
+    <img id="api" src="img/skills/api.png" />
+    <img id="java" src="img/skills/java.png" />
+    <img id="git" src="img/skills/git.png" />
+    <img id="github" src="img/skills/github.png" />
+    <img id="godaddy" src="img/skills/godaddy.png" />
+    <img id="cpanel" src="img/skills/cpanel.png" />
+    <img id="aws" src="img/skills/aws.png" />
+    <img id="wordPress" src="img/skills/wordpress.png" />
+    <img id="acf" src="img/skills/acf.png" />
+    <img id="blender" src="img/skills/blender.png" />
+    <img id="seo" src="img/skills/seo.png" />
+    <img id="faceBook" src="img/skills/facebook.png" />
+    <img id="youTube" src="img/skills/youtube.png" />
+    <img id="google" src="img/skills/google.png" />
+    <img id="mySQL" src="img/skills/mysql.png" />
+    <img id="phpMyAdmin" src="img/skills/phpmyadmin.png" />
+    <img id="visualStudio" src="img/skills/visual_studio.png" />
+
+    <!-- Work images -->
+
+    <img id="cjsPropertyServices0" src="img/work/cjs_property_services-0.jpg" />
+    <img id="cjsPropertyServices1" src="img/work/cjs_property_services-1.jpg" />
+    <img id="cjsPropertyServices2" src="img/work/cjs_property_services-2.jpg" />
+    <img id="cjsPropertyServices3" src="img/work/cjs_property_services-3.jpg" />
+    <img id="cjsPropertyServices4" src="img/work/cjs_property_services-4.jpg" />
+    <img id="cjsPropertyServices5" src="img/work/cjs_property_services-5.jpg" />
+
+    <img id="pageBuilder0" src="img/work/page_builder-0.jpg" />
+    <img id="pageBuilder1" src="img/work/page_builder-1.jpg" />
+    <img id="pageBuilder2" src="img/work/page_builder-2.jpg" />
+    <img id="pageBuilder3" src="img/work/page_builder-3.jpg" />
+    <img id="pageBuilder4" src="img/work/page_builder-4.jpg" />
+    <img id="pageBuilder5" src="img/work/page_builder-5.jpg" />
+
+    <img id="react0" src="img/work/morrisons-0.jpg" />
+    <img id="react1" src="img/work/morrisons-1.jpg" />
+    <img id="react2" src="img/work/morrisons-2.jpg" />
+    <img id="react3" src="img/work/morrisons-3.jpg" />
+    <img id="react4" src="img/work/morrisons-4.jpg" />
+    <img id="react5" src="img/work/morrisons-5.jpg" />
+
+    <img id="cordeeple0" src="img/work/creodex-0.jpg" />
+    <img id="cordeeple1" src="img/work/creodex-1.jpg" />
+    <img id="cordeeple2" src="img/work/creodex-2.jpg" />
+    <img id="cordeeple3" src="img/work/creodex-3.jpg" />
+    <img id="cordeeple4" src="img/work/creodex-4.jpg" />
+    <img id="cordeeple5" src="img/work/creodex-5.jpg" />
+
+    <img id="propeller0" src="img/work/propeller-0.jpg" />
+    <img id="propeller1" src="img/work/propeller-1.jpg" />
+    <img id="propeller2" src="img/work/propeller-2.jpg" />
+    <img id="propeller3" src="img/work/propeller-3.jpg" />
+    <img id="propeller4" src="img/work/propeller-4.jpg" />
+    <img id="propeller5" src="img/work/propeller-5.jpg" />
+
+    <img id="charlottesWeb0" src="img/work/charlottes_web-0.jpg" />
+    <img id="charlottesWeb1" src="img/work/charlottes_web-1.jpg" />
+    <img id="charlottesWeb2" src="img/work/charlottes_web-2.jpg" />
+    <img id="charlottesWeb3" src="img/work/charlottes_web-3.jpg" />
+    <img id="charlottesWeb4" src="img/work/charlottes_web-4.jpg" />
+    <img id="charlottesWeb5" src="img/work/charlottes_web-5.jpg" />
+
+    <!-- Floor -->
+
+    <canvas id="floor"></canvas>
+  </a-assets>
+
+  <!-- SKY -->
+
+  <a-sky color="#020202" geometry="radius: 1000"></a-sky>
+
+  <!-- LIGHTS -->
+
+  <a-light type="ambient" color="#020202"></a-light>
+  <a-light type="point" color="white" position="48.991 17.193 0"></a-light>
+  <a-light type="point" color="white" position="12.159 11.523 -101.653" light="intensity:0.49;angle:59.99"></a-light>
+
+  <!-- WALLS -->
+
+  <a-entity id="walls" position="17.5 0 17.5"></a-entity>
+
+  <!-- NOTICES -->
+
+  <a-entity text="value: Movement; side: double; align: center; color: yellow" position="-39 33.25 -75"
+    scale="75 75 75"></a-entity>
+  <a-entity
+    text="value: Use A,W,S,D or the arrow keys to move around. \nUse the yellow circle in the middle as the cursor. \nPress Esc to exit VR mode.; side: double; lineHeight: 55"
+    position="-29.25 27.75 -75" rotation="0 0 0" scale="35 35 35"></a-entity>
+
+  <a-entity text="value: Warning; side: double; align: center; color: red" position="1.1 33.25 -75" scale="75 75 75">
+  </a-entity>
+  <a-entity
+    text="value: This site is Non-immersive VR meaning it's only tested in desktop and mobile environments, not headsets.; side: double; lineHeight: 55"
+    position="12.5 27.7 -75" rotation="0 0 0" scale="35 35 35"></a-entity>
+
+  <!-- ABOUT ME -->
+
+  <a-entity text="value: About Me; side: double" position="53 -20 -75" rotation="-25 0 0" scale="150 150 150">
+  </a-entity>
+
+  <a-entity text="value: Charlie Leedham's Portfolio Site; side: double; align: center" position="-22.75 10 -65"
+    scale="75 75 75"></a-entity>
+  <a-image src="#logo" width="27" height="27" material="depthWrite: false; shader: flat;" position="-38.5 2.7 -65"
+    rotation="0 0 0"></a-image>
+  <a-entity
+    text="value: “Hi! My name is Charlie Leedham, \nI’m 21(+ 6) years old and from Northampton Central, I'm a Full Stack developer and I have \na 1st Class degree in Software Engineering \nwith 4+ years commercial experience.”; side:  double"
+    position="-8 2.5 -65" rotation="0 0 0" scale="40 40 40"></a-entity>
+  <a-entity collada-model="#person" position="19 2.5 -67" rotation="4 -19 -2" scale="1.25 1.25 1.25"></a-entity>
+
+  <!-- SKILLS -->
+
+  <a-entity text="value: Skills; side: double" position="-75 -20 -74.5" rotation="-25 90 0" scale="150 150 150">
+  </a-entity>
+
+  <a-entity text="value: Front-End; side: double" position="-75 55.3 19" rotation="0 105 0" scale="75 75 75">
+  </a-entity>
+  <a-entity text="value: Back-End; side: double" position="-70 55 -18.5" rotation="0 90 0" scale="75 75 75">
+  </a-entity>
+  <a-entity text="value: Devops; side: double" position="-70 55 -57.5" rotation="0 90 0" scale="75 75 75">
+  </a-entity>
+  <a-entity text="value: More; side: double" position="-60 55 -94" rotation="0 75 0" scale="75 75 75"></a-entity>
+
+  <!-- Front-end -->
+
+  <a-entity position="-70 40 60" rotation="0 15 0">
+    <a-entity text="value: HTML / \nHTML5; side: double; align: center; color: #E54C21" position="0 8.5 0"
+      rotation="0 90 0" scale="50 50 50"></a-entity>
+    <a-sphere src="#html5" radius="5"></a-sphere>
+    <a-animation attribute="position" from="-70 40 60" to="-70 41 60" dur="3000" easing="linear" repeat="indefinite"
+      direction="alternate"></a-animation>
+  </a-entity>
+
+  <a-entity position="-70 40 49" rotation="0 15 0">
+    <a-entity text="value: CSS / \nCSS3; side: double; align: center; color: #0D73B7" position="0 8.5 0"
+      rotation="0 90 0" scale="50 50 50"></a-entity>
+    <a-sphere src="#css3" radius="5"></a-sphere>
+    <a-animation attribute="position" from="-70 40 49" to="-70 41 49" dur="3000" easing="linear" repeat="indefinite"
+      direction="alternate"></a-animation>
+  </a-entity>
+
+  <a-entity position="-70 40 38" rotation="0 15 0">
+    <a-entity text="value: JavaScript; side: double; align: center; color: #D4B830" position="0 8.5 0" rotation="0 90 0"
+      scale="50 50 50"></a-entity>
+    <a-sphere src="#js" radius="5"></a-sphere>
+    <a-animation attribute="position" from="-70 40 38" to="-70 41 38" dur="3000" easing="linear" repeat="indefinite"
+      direction="alternate"></a-animation>
+  </a-entity>
+
+  <a-entity position="-70 25 60" rotation="0 15 0">
+    <a-entity text="value: A-Frame; side: double; align: center; color: #25CBFF" position="0 7.5 0" rotation="0 90 0"
+      scale="50 50 50"></a-entity>
+    <a-sphere src="#aFrame" radius="5"></a-sphere>
+    <a-animation attribute="position" from="-70 25 60" to="-70 26 60" dur="3000" easing="linear" repeat="indefinite"
+      direction="alternate"></a-animation>
+  </a-entity>
+
+  <a-entity position="-70 25 49" rotation="0 15 0">
+    <a-entity text="value: Sass; side: double; align: center; color: #D06397" position="0 7.5 0" rotation="0 90 0"
+      scale="50 50 50"></a-entity>
+    <a-sphere src="#sass" radius="5"></a-sphere>
+    <a-animation attribute="position" from="-70 25 49" to="-70 26 49" dur="3000" easing="linear" repeat="indefinite"
+      direction="alternate"></a-animation>
+  </a-entity>
+
+  <a-entity position="-70 25 38" rotation="0 15 0">
+    <a-entity text="value: jQuery; side: double; align: center; color: #0868AC" position="0 7.5 0" rotation="0 90 0"
+      scale="50 50 50"></a-entity>
+    <a-sphere src="#jQuery" radius="5"></a-sphere>
+    <a-animation attribute="position" from="-70 25 38" to="-70 26 38" dur="3000" easing="linear" repeat="indefinite"
+      direction="alternate"></a-animation>
+  </a-entity>
+
+  <a-entity position="-70 10 60" rotation="0 15 0">
+    <a-entity text="value: React; side: double; align: center; color: #0ADDF8" position="0 7.5 0" rotation="0 90 0"
+      scale="50 50 50"></a-entity>
+    <a-sphere src="#react" radius="5"></a-sphere>
+    <a-animation attribute="position" from="-70 10 60" to="-70 11 60" dur="3000" easing="linear" repeat="indefinite"
+      direction="alternate"></a-animation>
+  </a-entity>
+
+  <a-entity position="-70 10 49" rotation="0 15 0">
+    <a-entity text="value: GSAP; side: double; align: center; color: #93D400" position="0 7.5 0" rotation="0 90 0"
+      scale="50 50 50"></a-entity>
+    <a-sphere src="#gsap" radius="5"></a-sphere>
+    <a-animation attribute="position" from="-70 10 49" to="-70 11 49" dur="3000" easing="linear" repeat="indefinite"
+      direction="alternate"></a-animation>
+  </a-entity>
+
+  <a-entity position="-70 10 38" rotation="0 15 0">
+    <a-entity text="value: AJAX; side: double; align: center; color: #075B8A" position="0 7.5 0" rotation="0 90 0"
+      scale="50 50 50"></a-entity>
+    <a-sphere src="#ajax" radius="5"></a-sphere>
+    <a-animation attribute="position" from="-70 10 38" to="-70 11 38" dur="3000" easing="linear" repeat="indefinite"
+      direction="alternate"></a-animation>
+  </a-entity>
+
+  <a-entity position="-70 -5 60" rotation="0 15 0">
+    <a-entity text="value: Webpack; side: double; align: center; color: #8ED5FA" position="0 7.5 0" rotation="0 90 0"
+      scale="50 50 50"></a-entity>
+    <a-sphere src="#webpack" radius="5"></a-sphere>
+    <a-animation attribute="position" from="-70 -5 60" to="-70 -4 60" dur="3000" easing="linear" repeat="indefinite"
+      direction="alternate"></a-animation>
+  </a-entity>
+
+  <a-entity position="-70 -5 49" rotation="0 15 0">
+    <a-entity text="value: Gulp; side: double; align: center; color: #F44A4C" position="0 7.5 0" rotation="0 90 0"
+      scale="50 50 50"></a-entity>
+    <a-sphere src="#gulp" radius="5"></a-sphere>
+    <a-animation attribute="position" from="-70 -5 49" to="-70 -4 49" dur="3000" easing="linear" repeat="indefinite"
+      direction="alternate"></a-animation>
+  </a-entity>
+
+  <!-- Back-end -->
+
+  <a-entity position="-70 40 22.5">
+    <a-entity text="value: PHP; side: double; align: center; color: #4F5B93" position="0 7.5 0" rotation="0 90 0"
+      scale="50 50 50"></a-entity>
+    <a-sphere src="#php" radius="5"></a-sphere>
+    <a-animation attribute="position" from="-70 40 22.5" to="-70 41 22.5" dur="3000" easing="linear" repeat="indefinite"
+      direction="alternate"></a-animation>
+  </a-entity>
+
+  <a-entity position="-70 40 11.5">
+    <a-entity text="value: wordPress; side: double; align: center; color: #21759B" position="0 7.5 0" rotation="0 90 0"
+      scale="50 50 50"></a-entity>
+    <a-sphere src="#wordPress" radius="5"></a-sphere>
+    <a-animation attribute="position" from="-70 40 11.5" to="-70 41 11.5" dur="3000" easing="linear" repeat="indefinite"
+      direction="alternate"></a-animation>
+  </a-entity>
+
+  <a-entity position="-70 40 0.5">
+    <a-entity text="value: Node.js; side: double; align: center; color: #99BD4F" position="0 7.5 0" rotation="0 90 0"
+      scale="50 50 50"></a-entity>
+    <a-sphere src="#nodeJS" radius="5"></a-sphere>
+    <a-animation attribute="position" from="-70 40 0.5" to="-70 41 0.5" dur="3000" easing="linear" repeat="indefinite"
+      direction="alternate"></a-animation>
+  </a-entity>
+
+  <a-entity position="-70 25 22.5">
+    <a-entity text="value: Laravel; side: double; align: center; color: #F35045" position="0 7.5 0" rotation="0 90 0"
+      scale="50 50 50"></a-entity>
+    <a-sphere src="#laravel" radius="5"></a-sphere>
+    <a-animation attribute="position" from="-70 25 22.5" to="-70 26 22.5" dur="3000" easing="linear" repeat="indefinite"
+      direction="alternate"></a-animation>
+  </a-entity>
+
+  <a-entity position="-70 25 11.5">
+    <a-entity text="value: ACF; side: double; align: center; color: #3CEEB9" position="0 7.5 0" rotation="0 90 0"
+      scale="50 50 50"></a-entity>
+    <a-sphere src="#acf" radius="5"></a-sphere>
+    <a-animation attribute="position" from="-70 25 11.5" to="-70 26 11.5" dur="3000" easing="linear" repeat="indefinite"
+      direction="alternate"></a-animation>
+  </a-entity>
+
+  <a-entity position="-70 25 0.5">
+    <a-entity text="value: Rest API; side: double; align: center; color: #22BBA0" position="0 7.5 0" rotation="0 90 0"
+      scale="50 50 50"></a-entity>
+    <a-sphere src="#api" radius="5"></a-sphere>
+    <a-animation attribute="position" from="-70 25 0.5" to="-70 26 0.5" dur="3000" easing="linear" repeat="indefinite"
+      direction="alternate"></a-animation>
+  </a-entity>
+
+  <a-entity position="-70 10 22.5">
+    <a-entity text="value: phpMyAdmin; side: double; align: center; color: #FFB84D" position="0 7.5 0" rotation="0 90 0"
+      scale="50 50 50"></a-entity>
+    <a-sphere src="#phpMyAdmin" radius="5"></a-sphere>
+    <a-animation attribute="position" from="-70 10 22.5" to="-70 11 22.5" dur="3000" easing="linear" repeat="indefinite"
+      direction="alternate"></a-animation>
+  </a-entity>
+
+  <a-entity position="-70 10 11.5">
+    <a-entity text="value: MySQL; side: double; align: center; color: #00546B" position="0 7.5 0" rotation="0 90 0"
+      scale="50 50 50"></a-entity>
+    <a-sphere src="#mySQL" radius="5"></a-sphere>
+    <a-animation attribute="position" from="-70 10 11.5" to="-70 11 11.5" dur="3000" easing="linear" repeat="indefinite"
+      direction="alternate"></a-animation>
+  </a-entity>
+
+  <a-entity position="-70 10 0.5">
+    <a-entity text="value: Java; side: double; align: center; color: #5382A1" position="0 7.5 0" rotation="0 90 0"
+      scale="50 50 50"></a-entity>
+    <a-sphere src="#java" radius="5"></a-sphere>
+    <a-animation attribute="position" from="-70 10 0.5" to="-70 11 0.5" dur="3000" easing="linear" repeat="indefinite"
+      direction="alternate"></a-animation>
+  </a-entity>
+
+  <!-- Devops -->
+
+  <a-entity position="-70 40 -15">
+    <a-entity text="value: GoDaddy; side: double; align: center; color: #00A53F" position="0 7.5 0" rotation="0 90 0"
+      scale="50 50 50"></a-entity>
+    <a-sphere src="#godaddy" radius="5"></a-sphere>
+    <a-animation attribute="position" from="-70 40 -15" to="-70 41 -15" dur="3000" easing="linear" repeat="indefinite"
+      direction="alternate"></a-animation>
+  </a-entity>
+
+  <a-entity position="-70 40 -26">
+    <a-entity text="value: Git; side: double; align: center; color: #F05033" position="0 7.5 0" rotation="0 90 0"
+      scale="50 50 50"></a-entity>
+    <a-sphere src="#git" radius="5"></a-sphere>
+    <a-animation attribute="position" from="-70 40 -26" to="-70 41 -26" dur="3000" easing="linear" repeat="indefinite"
+      direction="alternate"></a-animation>
+  </a-entity>
+
+  <a-entity position="-70 40 -37">
+    <a-entity text="value: AWS; side: double; align: center;" position="0 7.5 0" rotation="0 90 0" scale="50 50 50">
+    </a-entity>
+    <a-sphere src="#aws" radius="5"></a-sphere>
+    <a-animation attribute="position" from="-70 40 -37" to="-70 41 -37" dur="3000" easing="linear" repeat="indefinite"
+      direction="alternate"></a-animation>
+  </a-entity>
+
+  <a-entity position="-70 25 -15">
+    <a-entity text="value: cPanel; side: double; align: center; color: #FF6C2C" position="0 7.5 0" rotation="0 90 0"
+      scale="50 50 50"></a-entity>
+    <a-sphere src="#cpanel" radius="5"></a-sphere>
+    <a-animation attribute="position" from="-70 25 -15" to="-70 26 -15" dur="3000" easing="linear" repeat="indefinite"
+      direction="alternate"></a-animation>
+  </a-entity>
+
+  <a-entity position="-70 25 -26">
+    <a-entity text="value: GitHub; side: double; align: center;" position="0 7.5 0" rotation="0 90 0"
+      scale="50 50 50"></a-entity>
+    <a-sphere src="#github" radius="5"></a-sphere>
+    <a-animation attribute="position" from="-70 25 -26" to="-70 26 -26" dur="3000" easing="linear" repeat="indefinite"
+      direction="alternate"></a-animation>
+  </a-entity>
+
+  <!-- More -->
+
+  <a-entity position="-70 40 -51" rotation="0 -15 0">
+    <a-entity text="value: Adobe CC; side: double; align: center; color: #DA1F26" position="0 7.5 0" rotation="0 90 0"
+      scale="50 50 50"></a-entity>
+    <a-sphere src="#adobeCC" radius="5"></a-sphere>
+    <a-animation attribute="position" from="-70 40 -51" to="-70 41 -51" dur="3000" easing="linear" repeat="indefinite"
+      direction="alternate"></a-animation>
+  </a-entity>
+
+  <a-entity position="-70 40 -62" rotation="0 -15 0">
+    <a-entity text="value: Sketch; side: double; align: center; color: #FEEFB8" position="0 7.5 0" rotation="0 90 0"
+      scale="50 50 50"></a-entity>
+    <a-sphere src="#sketch" radius="5"></a-sphere>
+    <a-animation attribute="position" from="-70 40 -62" to="-70 41 -62" dur="3000" easing="linear" repeat="indefinite"
+      direction="alternate"></a-animation>
+  </a-entity>
+
+  <a-entity position="-70 40 -73" rotation="0 -15 0">
+    <a-entity text="value: Blender; side: double; align: center; color: #265787" position="0 7.5 0" rotation="0 90 0"
+      scale="50 50 50"></a-entity>
+    <a-sphere src="#blender" radius="5"></a-sphere>
+    <a-animation attribute="position" from="-70 40 -73" to="-70 41 -73" dur="3000" easing="linear" repeat="indefinite"
+      direction="alternate"></a-animation>
+  </a-entity>
+
+  <a-entity position="-70 25 -51" rotation="0 -15 0">
+    <a-entity text="value: FaceBook; side: double; align: center; color: #4267B2" position="0 7.5 0" rotation="0 90 0"
+      scale="50 50 50"></a-entity>
+    <a-sphere src="#faceBook" radius="5"></a-sphere>
+    <a-animation attribute="position" from="-70 25 -51" to="-70 26 -51" dur="3000" easing="linear" repeat="indefinite"
+      direction="alternate"></a-animation>
+  </a-entity>
+
+  <a-entity position="-70 25 -62" rotation="0 -15 0">
+    <a-entity text="value: YouTube; side: double; align: center; color: #FF0000" position="0 7.5 0" rotation="0 90 0"
+      scale="50 50 50"></a-entity>
+    <a-sphere src="#youTube" radius="5"></a-sphere>
+    <a-animation attribute="position" from="-70 25 -62" to="-70 26 -62" dur="3000" easing="linear" repeat="indefinite"
+      direction="alternate"></a-animation>
+  </a-entity>
+
+  <a-entity position="-70 25 -73" rotation="0 -15 0">
+    <a-entity text="value: Google; side: double; align: center;" position="0 7.5 0" rotation="0 90 0"
+      scale="50 50 50"></a-entity>
+    <a-sphere src="#google" radius="5"></a-sphere>
+    <a-animation attribute="position" from="-70 25 -73" to="-70 26 -73" dur="3000" easing="linear" repeat="indefinite"
+      direction="alternate"></a-animation>
+  </a-entity>
+
+  <a-entity position="-70 10 -51" rotation="0 -15 0">
+    <a-entity text="value: SEO / \nWeb Master Tools; side: double; align: center; color: #4C4C4C" position="0 7.5 0"
+      rotation="0 90 0" scale="50 50 50"></a-entity>
+    <a-sphere src="#seo" radius="5"></a-sphere>
+    <a-animation attribute="position" from="-70 10 -51" to="-70 11 -51" dur="3000" easing="linear" repeat="indefinite"
+      direction="alternate"></a-animation>
+  </a-entity>
+
+  <a-entity position="-70 10 -73" rotation="0 -15 0">
+    <a-entity text="value: Visual \nStudio; side: double; align: center; color: #6A1B9A" position="0 7.5 0"
+      rotation="0 90 0" scale="50 50 50"></a-entity>
+    <a-sphere src="#visualStudio" radius="5"></a-sphere>
+    <a-animation attribute="position" from="-70 10 -73" to="-70 11 -73" dur="3000" easing="linear" repeat="indefinite"
+      direction="alternate"></a-animation>
+  </a-entity>
+
+  <!-- WORK -->
+
+  <a-entity text="value: Examples of Work; side: double" position="61 -20 42" rotation="-25 -90 0"
+    scale="150 150 150"></a-entity>
+
+  <a-entity id="workItemsTitle"
+    text="value: Select one of the projects below to view more; side: double; align: center; lineHeight: 55"
+    visible="true" position="60.25 60 -6" rotation="0 -90 0" scale="65 65 65"></a-entity>
+
+  <a-entity id="selectedWorkTitle" text="value: Work Title; side: double; align: center" visible="false"
+    position="54.8 54 -51" rotation="0 -75 0" scale="88 88 88"></a-entity>
+
+  <a-entity id="selectedWorkLink" selected-work-link geometry="primitive:plane;height: 0.15; width: 2.5"
+    material="visible: false" visible="false"
+    text="width: 4.5; value: react.charlieoleedham.co.uk; side: double; align: center; color: grey"
+    position="55.5 49 -51.25" rotation="0 -75 0" scale="15 15 15"></a-entity>
+
+  <a-entity id="selectedWorkDescription"
+    text="value: “Hi! My name is Charlie Leedham, \nI’m 21(+ 5) years old and from Northampton Central, I'm a Full Stack developer and I have \na 1st Class degree in Software Engineering \nwith 3 ½ + years commercial experience.”; side: double; lineHeight: 55"
+    visible="false" position="60 51 -3.1" rotation="0 -90 0" scale="45 45 45"></a-entity>
+
+  <a-entity go-back geometry="primitive:plane;height: 0.15" material="visible: false;" visible="false"
+    text="width: 4.5; value: <-- Go Back; side: double; color: grey; align: center" position="55 52 39"
+    rotation="0 -105 0" scale="25 25 25"></a-entity>
+
+  <a-entity class="work-item-title"
+    text="value: Cj's Property Services - WordPress; side: double; align: center; lineHeight: 55" visible="true"
+    position="55 46.2 -51.25" rotation="0 -75 0" scale="50 50 50"></a-entity>
+
+  <a-image work-item src="#cjsPropertyServices0" width="39.8125" height="23.625" position="55 32 -51"
+    rotation="0 -75 0">
+  </a-image>
+
+  <a-entity class="work-item-title" text="value: Page Builder - Laravel; side: double; align: center; lineHeight: 55"
+    visible="true" position="60.25 45.8 -6" rotation="0 -90 0" scale="50 50 0"></a-entity>
+
+  <a-image work-item src="#pageBuilder0" width="39.8125" height="23.625" position="60 31.75 -6" rotation="0 -90 0">
+  </a-image>
+
+  <a-entity class="work-item-title" text="value: To Do App - React; side: double; align: center; lineHeight: 55"
+    visible="true" position="55.2 46.3 39" rotation="0 -105 0" scale="50 50 0"></a-entity>
+
+  <a-image work-item src="#react0" width="39.8125" height="23.625" position="55 32 39" rotation="0 -105 0">
+  </a-image>
+
+  <a-entity class="work-item-title" text="value: Cordeeple - WordPress; side: double; align: center; lineHeight: 55"
+    visible="true" position="55 16.2 -51.25" rotation="0 -75 0" scale="50 50 0"></a-entity>
+
+  <a-image work-item src="#cordeeple0" width="39.8125" height="23.625" position="55 2 -51" rotation="0 -75 0">
+  </a-image>
+
+  <a-entity class="work-item-title" text="value: Propeller - WordPress; side: double; align: center; lineHeight: 55"
+    visible="true" position="60.25 16.5 -6" rotation="0 -90 0" scale="50 50 0"></a-entity>
+
+  <a-image work-item src="#propeller0" width="39.8125" height="23.625" position="60 2.25 -6" rotation="0 -90 0">
+  </a-image>
+
+  <a-entity class="work-item-title" text="value: Charlotte's Web - PHP; side: double; align: center; lineHeight: 55"
+    visible="true" position="55.2 16.3 39" rotation="0 -105 0" scale="50 50 0"></a-entity>
+
+  <a-image work-item src="#charlottesWeb0" width="39.8125" height="23.625" position="55 2 39" rotation="0 -105 0">
+  </a-image>
+
+  <!-- CONTACT ME -->
+
+  <a-entity text="value: Contact Me; side: double" position="-64 -20 61" rotation="-25 180 0" scale="150 150 150">
+  </a-entity>
+
+  <a-entity text="value: Phone:; side: double; align: center" position="15 20 55" rotation="0 180 0" scale="75 75 0">
+  </a-entity>
+  <a-entity a-link geometry="primitive:plane;height: 0.15" material="visible: false;"
+    text="width: 3; value:  07748059552; side: double; align: center; color: grey" position="-3 20 55"
+    rotation="0 180 0" scale="27.5 27.5 1"></a-entity>
+
+  <a-entity text="value: Email:; side: double; align: center" position="15.5 15 55" rotation="0 180 0"
+    scale="75 75 0"></a-entity>
+  <a-entity a-link geometry="primitive:plane;height: 0.15" material="visible: false;"
+    text="width: 3; value:  charlieleedham1@gmail.com; side: double; align: center; color: grey" position="-14 15 55"
+    rotation="0 180 0" scale="27.5 27.5 1"></a-entity>
+
+  <a-entity text="value: To find out more, download my CV -; side: double; align: center" position="-6.5 5 55"
+    rotation="0 180 0" scale="75 75 0"></a-entity>
+  <a-entity a-link geometry="primitive:plane;height: 0.15" material="visible: false;"
+    text="width: 3; value: charlie_leedham_cv; side: double; align: center; color: grey" position="3.8 0 55"
+    rotation="0 180 0" scale="27.5 27.5 1"></a-entity>
+
+  <!-- Player -->
+  <a-entity id="player" camera universal-controls="movementAcceleration:500;" kinematic-body position="-5 0 -8">
+    <a-entity cursor scale="0.1 0.1 0.1" position="0 0 -5" geometry="primitive: ring"
+      material="color: yellow; shader: flat"></a-entity>
+  </a-entity>
+
+  <!-- Floor -->
+  <a-plane position="0 -55 0" rotation="-90 0 0" width="1000" height="1000" material="shader: flat; src:#floor">
+  </a-plane>
+
+  <!-- Copyright -->
+  <a-entity text="value: Copyright 2021 charlieoleedham; side:  double;" position="15 90 0" rotation="90 0 0"
+    scale="100 100 100"></a-entity>
+</a-scene>
