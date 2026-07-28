@@ -5,12 +5,12 @@ AFRAME.registerComponent('work-item', {
 
         // ID / Title / Description / Link
         var workArray = [
-            ['#cjsPropertyServices', 'Cj\'s Property Services', 'Custom built WordPress theme using ACF \nand Facebook API. Client wanted a website \nwhere they didn\'t have to update manually, \nso I developed and designed a website \nusing the Facebook API of public pages.', 'cjspropertyservices.co.uk'],
-            ['#pageBuilder', 'Edit Websites', 'Worked with a team of developers \ndeveloping a page builder for a software \ncompany using Laravel as the framework. \nAbit like Wix.com where customers can \nlogin and start building their own website.', 'chester.anglican.org'],
-            ['#react', 'To Do App', 'Recently learning React and built a simple to \ndo app where the user can create, read and \ndelete their tasks. I am looking to learn \nRedux on top of this for it\'s state \nmanagement capabilities.', 'react.charlieoleedham.co.uk'],
-            ['#cordeeple', 'Cordeeple', 'Worked with a team of developers using WordPress Elementor for a startup \nmarketing company based in Canada. \nI Solicited with the client their wants /  \nneeds and gave ideas.', 'cordeeple.ca'],
-            ['#propeller', 'Propeller', 'Worked for Propeller for 2 and half years as \na Front-end developer, developing on many WordPress sites from hospitality to fashion \nfrom small changes to full on websites. Sometimes worked on FuelPHP websites.', 'propeller.co.uk'],
-            ['#charlottesWeb', 'Charlotte\'s Web', 'My university dissertation project I worked \nwith a tattooist (Charlotte\'s Web) based in Northampton. Built a custom PHP system \nusing OOP and PDO where the client can \ntake bookings and upload portfolios.', 'cw.charlieoleedham.co.uk']
+            ['#creodex', 'Creodex', 'Built Creodex for a Canadian client using \nNext.js, React, etc. It integrates GPT-powered assistants that filter OpenAI responses, \ngiving users expert insights before \nAI-generated answers.', 'creodex.com'],
+            ['#morrisons', 'Morrisons Breakfast Kiosk', 'Contributed to the frontend development of \nthe Morrisons Cafe breakfast ordering kiosk \nusing React etc, delivering new features, bug \nfixes, and an intuitive touchscreen experience.', ''],
+            ['#15gifts', 'Recommendation Engine', 'Maintained a recommendation engine for \nmajor telecom providers, including Vodafone, \nEE, and 02 using React etc. within large \ndevelopment teams using React and Redux to support a customer journey that recommend \nmobile devices based on user preferences.', ''],
+            ['#editwebsites', 'Edit Websites', 'Contributed to the redesign and \nredevelopment of the companys page builder \ninto a modern website-building platform \ninspired by solutions such as Wix.', ''],
+            ['#propeller', 'Propeller', 'Developed expertise in WordPress, SASS, and \nGit while maintaining a portfolio of WordPress \nwebsites, Worked within the companys development workflow to deliver website \nupdates and enhancements for clients, \nincluding Youngs pubs.', ''],
+            ['#charlottesWeb', 'Charlotte\'s Web', 'My university dissertation project I worked \nwith a tattooist (Charlotte\'s Web) based in Northampton. Built a custom PHP system \nusing OOP and PDO where the client can \ntake bookings and upload portfolios.', '']
         ]
 
         this.el.addEventListener('click', getIndex);
@@ -62,7 +62,7 @@ AFRAME.registerComponent('go-back', {
         this.el.addEventListener('click', function (evt) {
             var workItems = document.querySelectorAll('[work-item]');
             var workItemTitle = document.querySelectorAll('.work-item-title');
-            var workArray = ['#cjsPropertyServices0', '#pageBuilder0', '#react0', '#cordeeple0', '#propeller0', '#charlottesWeb0']
+            var workArray = ['#creodex0', '#morrisons0', '#15gifts0', '#editwebsites0', '#propeller0', '#charlottesWeb0']
 
             this.setAttribute('can-countdown', 'false')
 
